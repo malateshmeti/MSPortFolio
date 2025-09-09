@@ -13,7 +13,7 @@
 }
 
 .ms-experience-title {
-  font-size: 2.2rem;
+  font-size: 2.4rem; /* increased */
   font-weight: 700;
   color: #fff;
   text-align: center;
@@ -24,12 +24,12 @@
 .ms-experience-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 28px; /* slightly more spacing */
 }
 
 /* Card */
 .ms-experience-card {
-  padding: 24px;
+  padding: 28px;
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -44,35 +44,35 @@
 
 /* Text */
 .ms-experience-role {
-  font-size: 1.2rem;
+  font-size: 1.35rem; /* bigger */
   font-weight: 600;
   color: #61dafb;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .ms-experience-company {
-  font-size: 1rem;
+  font-size: 1.1rem; /* bigger */
   margin-bottom: 6px;
   color: #ccc;
 }
 
 .ms-experience-duration {
-  font-size: 0.9rem;
+  font-size: 1rem; /* slightly bigger */
   color: #aaa;
 }
 
 .ms-experience-skills {
-  font-size: 0.95rem;
+  font-size: 1rem; /* increased */
   color: #ddd;
-  margin: 10px 0;
+  margin: 12px 0;
 }
 
 .ms-experience-points {
   list-style: disc;
-  padding-left: 20px;
+  padding-left: 22px;
   color: #eee;
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 1rem; /* bigger */
+  line-height: 1.6;
 }
 
 /* ✅ Responsive Fixes */
@@ -82,18 +82,20 @@
   }
 
   .ms-experience-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .ms-experience-card {
-    padding: 18px;
+    padding: 20px;
   }
 
   .ms-experience-role {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
+  .ms-experience-company,
+  .ms-experience-skills,
   .ms-experience-points {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 }
